@@ -1,2 +1,2 @@
-# 323SoftScienceProject
-Repo for sofware science final project
+323SoftScienceProject
+Repo for software science final project
