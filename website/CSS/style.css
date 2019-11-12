@@ -18,5 +18,11 @@ body{
 .pic{
   width: 300;
   height: 100;
-
+}
+.rotateimg180 {
+  -webkit-transform:rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
