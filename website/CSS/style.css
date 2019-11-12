@@ -1,7 +1,7 @@
 
 
-* {
-  background: red;
+.top-container {
+  font-family: cursive;
   align-items: center;
-  justify-content: center;
-  }
+  background-color: red;
+}
