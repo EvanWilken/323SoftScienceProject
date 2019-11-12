@@ -13,7 +13,7 @@ body{
 }
 .santa-clip{
   background-color: lightgreen;
-  align-items: center;
+  text-align: center;
 }
 .pic{
   width: 600;
