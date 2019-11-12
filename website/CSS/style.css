@@ -2,6 +2,11 @@
 
 .top-container {
   font-family: cursive;
-  align-items: center;
+  text-align: center;
+  text-shadow: 2px;
+  font-weight: bold;
+  font-size: 48px;
+
   background-color: red;
+
 }
