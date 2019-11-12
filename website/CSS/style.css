@@ -3,10 +3,10 @@
 .top-container {
   font-family: cursive;
   text-align: center;
-  text-shadow: 2px;
+  text-shadow: 2px 2px 8px white;
   font-weight: bold;
   font-size: 48px;
-  text-decoration-color: white;
+
 
   background-color: red;
 
