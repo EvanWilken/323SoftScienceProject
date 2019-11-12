@@ -13,9 +13,9 @@ body{
 }
 .santa-clip{
   background-color: lightgreen;
+  align-items: center;
 }
 .pic{
-  width: 500;
+  width: 600;
   height: 100;
-  align: center;
 }
