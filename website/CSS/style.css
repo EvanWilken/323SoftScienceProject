@@ -15,5 +15,7 @@ body{
   background-color: lightgreen;
 }
 .pic{
-  
+  width: 500;
+  height: 100;
+  align: center;
 }
