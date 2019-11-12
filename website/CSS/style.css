@@ -15,11 +15,10 @@ body{
   background-color: lightgreen;
   text-align: center;
 }
-.pic{
+.santapic{
   width: 300;
   height: 100;
-}
-.rotateimg180 {
+
   -webkit-transform:rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
