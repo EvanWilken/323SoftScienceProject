@@ -1,6 +1,7 @@
 
 body{
   background-color: lightblue;
+  line-height: 0px;
 }
 .top-container {
   font-family: cursive;
@@ -14,7 +15,7 @@ body{
 .santa-clip{
   background-color: lightgreen;
   text-align: center;
-  vertical-align: top;
+  line-height: 0px;
 }
 .santapic{
   width: 300;
