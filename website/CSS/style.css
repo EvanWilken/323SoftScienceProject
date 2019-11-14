@@ -19,9 +19,9 @@ body{
   width: 300;
   height: 100;
 
-  -webkit-transform:rotate(15deg);
-  -moz-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  transform: rotate(15deg);
+  -webkit-transform:rotate(13deg);
+  -moz-transform: rotate(13deg);
+  -ms-transform: rotate(13deg);
+  -o-transform: rotate(13deg);
+  transform: rotate(13deg);
 }
