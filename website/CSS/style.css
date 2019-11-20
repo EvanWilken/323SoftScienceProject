@@ -19,6 +19,7 @@
   background-color: lightgreen;
   text-align: center;
 }
+/*
 .santapic{
   background-color: lightgreen;
   width: 300;
@@ -30,10 +31,11 @@
   -o-transform: rotate(7deg);
   transform: rotate(7deg);
 }
+*/
 .santapicL{
   background-color: #ff0000;
-  width: 300;
-  height: 100;
+  width: 270;
+  height: 90;
   float:left;
   margin-left: 200px;
 
@@ -45,8 +47,8 @@
 }
 .santapicR{
   background-color: #ff0000;
-  width: 300;
-  height: 100;
+  width: 270;
+  height: 90;
   float:right;
   margin-right: 200px;
 
