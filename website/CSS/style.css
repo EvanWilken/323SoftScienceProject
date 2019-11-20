@@ -5,8 +5,11 @@
 }
 
 .top-container {
-  font-family: cursive;
+  margin: 0px;
   text-align: center;
+}
+.title {
+  font-family: cursive;
   text-shadow: 2px 2px 8px white;
   font-weight: bold;
   font-size: 48px;
