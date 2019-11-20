@@ -30,3 +30,27 @@
   -o-transform: rotate(7deg);
   transform: rotate(7deg);
 }
+.santapicL{
+  background-color: lightgreen;
+  width: 300;
+  height: 100;
+  float:left;
+
+  -webkit-transform:rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
+.santapicR{
+  background-color: lightgreen;
+  width: 300;
+  height: 100;
+  float:right;
+
+  -webkit-transform:rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
