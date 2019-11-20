@@ -2,8 +2,8 @@
 *{
   background-color: lightblue;
   margin: 0px;
-  padding: 10px;
 }
+
 .top-container {
   font-family: cursive;
   text-align: center;
@@ -11,9 +11,8 @@
   font-weight: bold;
   font-size: 48px;
   background-color: #ff0000;
-  background-color: red;
 }
-.santa-clip{
+.santa-div{
   background-color: lightgreen;
   text-align: center;
 }
