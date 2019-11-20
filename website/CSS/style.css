@@ -31,10 +31,11 @@
   transform: rotate(7deg);
 }
 .santapicL{
-  background-color: lightgreen;
+  background-color: #ff0000;
   width: 300;
   height: 100;
   float:left;
+  margin-left: 200px;
 
   -webkit-transform:rotate(7deg);
   -moz-transform: rotate(7deg);
@@ -43,10 +44,11 @@
   transform: rotate(7deg);
 }
 .santapicR{
-  background-color: lightgreen;
+  background-color: #ff0000;
   width: 300;
   height: 100;
   float:right;
+  margin-right: 200px;
 
   -webkit-transform:rotate(7deg);
   -moz-transform: rotate(7deg);
