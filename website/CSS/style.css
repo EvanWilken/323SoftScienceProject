@@ -19,7 +19,8 @@
   background-color: #ff0000;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-style: dashed;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
   border-color: white;
 }
 .santa-div{
@@ -45,7 +46,7 @@
   height: 90;
   float:left;
   margin-left: 200px;
-  vertical-align: center;
+  margin-top: 15;
 
   -webkit-transform:rotate(7deg);
   -moz-transform: rotate(7deg);
@@ -59,7 +60,7 @@
   height: 90;
   float:right;
   margin-right: 200px;
-  vertical-align: center;
+  margin-top: 15;
 
   -webkit-transform:rotate(7deg);
   -moz-transform: rotate(7deg);
