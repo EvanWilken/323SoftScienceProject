@@ -38,6 +38,7 @@
   height: 90;
   float:left;
   margin-left: 200px;
+  margin-top: 10px;
 
   -webkit-transform:rotate(7deg);
   -moz-transform: rotate(7deg);
@@ -51,6 +52,7 @@
   height: 90;
   float:right;
   margin-right: 200px;
+  margin-top: 10px;
 
   -webkit-transform:rotate(7deg);
   -moz-transform: rotate(7deg);
