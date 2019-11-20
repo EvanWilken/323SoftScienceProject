@@ -19,7 +19,7 @@
   background-color: #ff0000;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 10px;
+  padding: 5px;
   border-top-style: dashed;
   border-bottom-style: dashed;
   border-color: white;
@@ -47,7 +47,7 @@
   height: 90;
   float:left;
   margin-left: 200px;
-  margin-top: 35px;
+  margin-top: 40px;
 
   -webkit-transform:rotate(7deg);
   -moz-transform: rotate(7deg);
@@ -61,7 +61,7 @@
   height: 90;
   float:right;
   margin-right: 200px;
-  margin-top: 35px;
+  margin-top: 40px;
 
   -webkit-transform:rotate(7deg);
   -moz-transform: rotate(7deg);
