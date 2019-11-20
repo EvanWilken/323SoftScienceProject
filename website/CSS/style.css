@@ -74,3 +74,13 @@
   width: 500;
   height: 500;
 }
+
+.main{
+  background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
+}
