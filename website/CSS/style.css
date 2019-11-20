@@ -12,7 +12,7 @@
   font-family: cursive;
   text-shadow: 2px 2px 8px white;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 72px;
   background-color: #ff0000;
 }
 .santa-div{
@@ -20,6 +20,7 @@
   text-align: center;
 }
 .santapic{
+  background-color: lightgreen;
   width: 300;
   height: 100;
 
