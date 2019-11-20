@@ -1,14 +1,8 @@
 
 *{
   margin: 0px;
-  background: repeating-linear-gradient(
-  45deg,
-  #606dbc,
-  #606dbc 10px,
-  #465298 10px,
-  #465298 20px
-);
 }
+
 
 .top-container {
   margin: 0px;
@@ -74,4 +68,9 @@
   -ms-transform: rotate(7deg);
   -o-transform: rotate(7deg);
   transform: rotate(7deg);
+}
+
+.gamecanvas{
+  width: 500;
+  height: 500;
 }
