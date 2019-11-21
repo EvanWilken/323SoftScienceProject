@@ -9,6 +9,7 @@
   text-align: center;
   border-style: dashed;
   border-color: white;
+  border-spacing: 10px;
   background: repeating-linear-gradient(
   to right,
   green,
