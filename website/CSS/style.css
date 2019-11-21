@@ -9,7 +9,13 @@
   text-align: center;
   border-style: dashed;
   border-color: white;
-  background-color: green;
+  background: repeating-linear-gradient(
+  to right,
+  green,
+  green 40px,
+  #ff0000 40px,
+  #ff0000 80px
+);
 }
 .title {
   font-family: cursive;
