@@ -90,4 +90,7 @@
   green 40px,
   green 80px
 );
+border-left: dashed;
+border-right: dashed;
+border-color: white;
 }
