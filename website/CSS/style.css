@@ -79,8 +79,8 @@
   background: repeating-linear-gradient(
   45deg,
   #ff0000,
-  #ff0000 10px,
-  green 10px,
-  green 20px
+  #ff0000 30px,
+  green 30px,
+  green 60px
 );
 }
