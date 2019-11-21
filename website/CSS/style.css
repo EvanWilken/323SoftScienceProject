@@ -81,6 +81,8 @@
   width: 500;
   height: 500;
   padding: 50px;
+  border-style: double;
+  border-color: white;
 }
 
 .main{
