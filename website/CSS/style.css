@@ -80,8 +80,7 @@
 .gamecanvas{
   width: 500;
   height: 500;
-  text-align: center;
-  align-items: center;
+  padding: 50px;
 }
 
 .main{
@@ -95,4 +94,6 @@
 border-left: dashed;
 border-right: dashed;
 border-color: white;
+text-align: center;
+align-items: center;
 }
