@@ -41,9 +41,17 @@
   var snake = [{x: SIZE / 2, y: SIZE / 2}];
   var candy = null;
   var end = false;
+  var score = 0;
+
 
   function randomOffset() {
     return Math.floor(Math.random() * SIZE / GRID_SIZE) * GRID_SIZE;
+  }
+
+  function text(txt, font, x, y, c) {
+    context.fillStyle = c;
+    context.font = font;
+    context.fillText(txt,x,y)
   }
 
   function stringifyCoord(obj) {
@@ -68,6 +76,7 @@
     if (candy && candy.x === newHead.x && candy.y === newHead.y) {
       candy = null;
       snakeLength += 20;
+      score += 1;
     }
 
     context.fillStyle = '#DAA520';
@@ -105,6 +114,8 @@
 
     context.fillStyle = '#008000';
     context.fillRect(candy.x, candy.y, GRID_SIZE, GRID_SIZE);
+    text('Score: ' + score, '30px Cosmic Sans MS', 0, 50, 'black');
+
   }
 
   window.onload = function() {
