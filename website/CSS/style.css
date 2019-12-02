@@ -110,6 +110,9 @@
 
 .tab-container{
   height:50px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 0px;
 }
 
 .tabbut{
