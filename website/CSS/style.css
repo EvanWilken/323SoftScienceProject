@@ -223,3 +223,9 @@ border-color: white;
 text-align: center;
 align-items: center;
 }
+
+h3{
+  font-family: cursive;
+  text-shadow: 2px 2px 8px white;
+  font-weight: bold;
+}
