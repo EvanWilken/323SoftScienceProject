@@ -135,7 +135,6 @@
 }
 
 .game-container{
-  float: left;
   width: 100%;
   background: repeating-linear-gradient(
     to right,
