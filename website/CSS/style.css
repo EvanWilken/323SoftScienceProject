@@ -173,7 +173,7 @@
 
 .intro-popin{
   width:33%;
-  margin:auto;
+  margin: auto;
   position: relative;
   height: 66%;
   background-color: #fff;
@@ -182,6 +182,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .play-button-container{
