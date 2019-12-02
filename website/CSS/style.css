@@ -235,7 +235,7 @@ h1{
 
 .highscore-column{
   width:25%;
-  height:100%;
+  height: auto;
   margin: 0px;
   background-color: green;
   border-left: dashed;
