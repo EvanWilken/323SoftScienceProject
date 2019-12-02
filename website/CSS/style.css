@@ -172,10 +172,10 @@
 }
 
 .intro-popin{
-  width:800px;
+  width:33%;
   margin:auto;
   position: relative;
-  height: 85%;
+  height: 66%;
   background-color: #fff;
   background-image: url("../images/xmas-snake.jpg");
   background-position: center;
@@ -207,6 +207,7 @@
 }
 
 .main{
+  height: auto;
   width: 100%;
   background: repeating-linear-gradient(
   to right,
