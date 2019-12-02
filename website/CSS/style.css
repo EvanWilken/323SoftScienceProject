@@ -162,6 +162,8 @@
 
 .highscore-container{
   display: none;
+  align-items: center;
+  text-align: center;
 }
 
 .intro-popin-container{
@@ -234,7 +236,9 @@ h1{
 .highscore-column{
   width:25%;
   height:100%;
+  margin: 0px;
   background-color: green;
   border-left: dashed;
   border-right: dashed;
+  border-color: white;
 }
