@@ -214,6 +214,7 @@ border-bottom: dashed;
 border-color: white;
 text-align: center;
 align-items: center;
+box-sizing: border-box;
 }
 
 .highscore-container{
@@ -230,7 +231,7 @@ h1{
 
 .highscore-column{
   width:25%;
-  height: auto;
+  height: 100%;
   margin:auto;
   background-color: green;
   border-left: dashed;
