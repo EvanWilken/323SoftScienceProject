@@ -230,9 +230,8 @@ h1{
 }
 
 .highscore-column{
-  display: inline-block;
   width:25%;
-  height: 100%;
+  height: inherit;
   margin:auto;
   background-color: green;
   border-left: dashed;
