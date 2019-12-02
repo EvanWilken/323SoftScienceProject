@@ -79,8 +79,9 @@
 }
 
 .gamecanvas{
-  width: 1000;
+  /*width: 1000;
   height: 1000;
+  */
   margin: 50px;
   border-style: double;
   border-color: white;
@@ -112,7 +113,8 @@
 .tabbut{
   width:50%;
   float: left;
-  padding: 2px;
+  padding: 10px;
+  padding-top: 0px;
   box-sizing: border-box;
 }
 .tab-button{
