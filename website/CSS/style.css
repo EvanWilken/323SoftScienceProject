@@ -84,7 +84,7 @@
   height: 1000;
   */
   margin: 50px;
-  margin-bottom: 25%;
+  margin-bottom: auto;
   border-style: double;
   border-color: white;
 }
