@@ -110,16 +110,11 @@
 
 .tab-container{
   height:50px;
-  padding-bottom: 0px;
-  padding-top: 0px;
-  margin: 0px;
 }
 
 .tabbut{
   width:50%;
   float: left;
-  padding-bottom: 0px;
-  padding-top: 0px;
   box-sizing: border-box;
 }
 .tab-button{
@@ -165,6 +160,8 @@
   align-items: center;
   text-align: center;
   height: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 
 .intro-popin-container{
