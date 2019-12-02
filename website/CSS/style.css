@@ -115,7 +115,7 @@
 .tabbut{
   width:50%;
   float: left;
-  padding: 0px;
+  padding-bottom: 0px;
   padding-top: 0px;
   box-sizing: border-box;
 }
@@ -149,12 +149,9 @@
     green 40px,
     green 80px
     );
-  /* border-left: dashed;
-   border-right: dashed;*/
   border-color: white;
   text-align: center;
   align-items: center;
-  /*padding-bottom: 5%;*/
   min-height: 50px;
   margin: auto;
 
@@ -164,6 +161,7 @@
   display: none;
   align-items: center;
   text-align: center;
+  height: 100%;
 }
 
 .intro-popin-container{
