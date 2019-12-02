@@ -235,10 +235,9 @@ h1{
   width:25%;
   height: 100%;
   margin:auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
   background-color: green;
   border-left: dashed;
   border-right: dashed;
+  border-top: dashed;
   border-color: white;
 }
