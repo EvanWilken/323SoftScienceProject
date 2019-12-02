@@ -31,10 +31,11 @@
   border-bottom-style: dashed;
   border-color: white;
 }
-.santa-div{
+/*.santa-div{
   background-color: lightgreen;
   text-align: center;
 }
+*/
 /*
 .santapic{
   background-color: lightgreen;
@@ -95,11 +96,11 @@
   green 40px,
   green 80px
   );
-border-left: dashed;
-border-right: dashed;
-border-color: white;
-text-align: center;
-align-items: center;
+  border-left: dashed;
+  border-right: dashed;
+  border-color: white;
+  text-align: center;
+  align-items: center;
 }
 
 .tab-container{
