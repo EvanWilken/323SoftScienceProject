@@ -230,7 +230,7 @@ h1{
 
 .highscore-column{
   width:25%;
-  height: 100%;
+  height: auto;
   margin:auto;
   background-color: green;
   border-left: dashed;
