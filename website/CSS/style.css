@@ -237,3 +237,9 @@ h1{
   border: dashed;
   border-color: white;
 }
+
+.scorecount{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
