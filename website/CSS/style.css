@@ -253,7 +253,7 @@ h1{
   text-align: center;
 }
 .currscoredisp{
-  float:right;
+  display:inline;
   font-size: 36px;
   font-family: cursive;
 }
