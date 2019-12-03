@@ -122,9 +122,10 @@
   width: 100%;
   background-color: #AAA;
   height: 30px;
+  font-size:30px;
   margin: auto;
   padding-top: 10px;
-  font-family: 'Fugaz One', cursive;
+  font-family: cursive;
   color:#222;
   cursor: pointer;
   text-align: center;
