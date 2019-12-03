@@ -106,7 +106,7 @@ function gameGo() {
       context.fillStyle = 'lightblue';
       context.fillRect(0, 0, SIZE, SIZE);
       if (end) {
-        context.fillStyle = '#eee8d5';
+        context.fillStyle = 'black';
         context.font = '40px serif';
         context.textAlign = 'center';
         context.fillText('Refresh to play again\n', SIZE / 2, SIZE / 2);
