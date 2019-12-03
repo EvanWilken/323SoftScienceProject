@@ -167,7 +167,7 @@
 .intro-popin{
   width:36%;
   margin: auto;
-  position: relative;
+  /*position: relative;*/
   height: 70%;
   background-color: #fff;
   background-image: url("../images/christmas-snake.png");
@@ -247,12 +247,13 @@ h1{
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 45%;
-  margin-right: 45%;
-  padding: 5px;
+  margin-left: 46%;
+  margin-right: 46%;
+  padding: 4px;
   border-top: double;
   border-left: double;
   border-right: double;
+  border-color: white;
   background-color: lightblue;
 }
 .scoredisp{
