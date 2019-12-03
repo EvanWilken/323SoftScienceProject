@@ -247,12 +247,13 @@ h1{
 .scoredisp{
   text-align: center;
   align-items: center;
-  font-size: 48px;
-  font-family: 'Fugaz One', cursive;
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: cursive;
 }
 .currscoredisp{
   text-align: center;
   align-items: center;
   font-size: 48px;
-  font-family: 'Fugaz One', cursive;
+  font-family: cursive;
 }
