@@ -243,17 +243,19 @@ h1{
 .scorecount{
   align-items: center;
   text-align: center;
+  margin:auto;
 }
 .scoredisp{
   text-align: center;
   align-items: center;
   font-size: 36px;
-  margin-bottom: 10px;
   font-family: cursive;
 }
+/*
 .currscoredisp{
   text-align: center;
   align-items: center;
   font-size: 48px;
   font-family: cursive;
 }
+*/
