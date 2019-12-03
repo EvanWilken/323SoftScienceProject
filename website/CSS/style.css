@@ -246,8 +246,10 @@ h1{
 .scoredisp{
   text-align: center;
   float:left;
+  margin: auto;
 }
 .currscoredisp{
   text-align: center;
   float:right;
+  margin:auto;
 }
