@@ -172,6 +172,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border: dashed;
+  border-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -248,5 +250,6 @@ h1{
 }
 .currscoredisp{
   text-align: center;
+  align-items: center;
   float:right;
 }
