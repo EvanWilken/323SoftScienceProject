@@ -241,11 +241,10 @@ h1{
 .scorecount{
   align-items: center;
   text-align: center;
-  margin: auto;
 }
 .scoredisp{
   text-align: center;
-  margin-left:47%
+  align-items: center;
 }
 .currscoredisp{
   text-align: center;
