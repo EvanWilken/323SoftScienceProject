@@ -231,11 +231,9 @@ h1{
 
 .highscore-column{
   width:25%;
-  height: inherit;
+  height: 75%;
   margin:auto;
   background-color: green;
-  border-left: dashed;
-  border-right: dashed;
-  border-top: dashed;
+  border: dashed;
   border-color: white;
 }
