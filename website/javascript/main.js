@@ -107,7 +107,7 @@ function gameGo() {
       context.fillRect(0, 0, SIZE, SIZE);
       if (end) {
         context.fillStyle = 'black';
-        context.font = '40px cursive';
+        context.font = '40px serif';
         context.textAlign = 'center';
         context.fillText('Refresh to play again\n', SIZE / 2, SIZE / 2);
       } else {
