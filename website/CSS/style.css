@@ -111,6 +111,7 @@
 
 .tab-container{
   height:50px;
+  margin-bottom: 20px;
 }
 
 .tabbut{
@@ -121,10 +122,10 @@
 .tab-button{
   width: 100%;
   background-color: #AAA;
-  height: 50px;
+  height: 40px;
   font-size: 30px;
   margin: auto;
-  padding-top: 10px;
+  padding-top: 5px;
   font-family: cursive;
   color:#222;
   cursor: pointer;
