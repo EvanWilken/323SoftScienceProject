@@ -103,7 +103,7 @@ function gameGo() {
         score += 1;
       }
 
-      context.fillStyle = '#DAA520';
+      context.fillStyle = 'lightblue';
       context.fillRect(0, 0, SIZE, SIZE);
       if (end) {
         context.fillStyle = '#eee8d5';
@@ -138,7 +138,7 @@ function gameGo() {
 
       context.fillStyle = '#008000';
       context.fillRect(candy.x, candy.y, GRID_SIZE, GRID_SIZE);
-      text('Score: ' + score, '30px Cosmic Sans MS', 0, 50, 'black');
+      //text('Score: ' + score, '30px Cosmic Sans MS', 0, 50, 'black');
 
       document.getElementById('currscore').innerHTML = score;
 
