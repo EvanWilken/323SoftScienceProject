@@ -249,11 +249,12 @@ h1{
 }
 .scoredisp{
   font-size: 36px;
+  display: inline-block;
   font-family: cursive;
   text-align: center;
 }
 .currscoredisp{
-  display:inline;
+  display: inline-block;
   font-size: 36px;
   font-family: cursive;
 }
