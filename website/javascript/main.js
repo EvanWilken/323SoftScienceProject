@@ -109,7 +109,7 @@ function gameGo() {
         context.fillStyle = '#eee8d5';
         context.font = '40px serif';
         context.textAlign = 'center';
-        context.fillText('Refresh to play again', SIZE / 2, SIZE / 2);
+        context.fillText('Refresh to play again\n', SIZE / 2, SIZE / 2);
       } else {
         snake.unshift(newHead);
         snake = snake.slice(0, snakeLength);
@@ -139,6 +139,8 @@ function gameGo() {
       context.fillStyle = '#008000';
       context.fillRect(candy.x, candy.y, GRID_SIZE, GRID_SIZE);
       text('Score: ' + score, '30px Cosmic Sans MS', 0, 50, 'black');
+
+      document.getElementById('currscore').innerHTML = score;
 
     }
 
