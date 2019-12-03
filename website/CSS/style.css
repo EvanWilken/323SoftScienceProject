@@ -167,7 +167,7 @@
 .intro-popin{
   width:36%;
   margin: auto;
-  /*position: relative;*/
+  position: relative;
   height: 70%;
   background-color: #fff;
   background-image: url("../images/christmas-snake.png");
