@@ -247,6 +247,11 @@ h1{
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 5px;
+  border-top: double;
+  border-left: double;
+  border-right: double;
+  background-color: lightblue;
 }
 .scoredisp{
   font-size: 36px;
