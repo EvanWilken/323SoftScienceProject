@@ -52,7 +52,7 @@ window.addEventListener("keydown", function(e) {
 //}
 
 function gameGo() {
-    var SIZE = 1000; // Size of the play-field in pixels
+    var SIZE = 700; // Size of the play-field in pixels
     var GRID_SIZE = SIZE / 50;
     var c = document.querySelector(".gamecanvas");
     c.height = c.width = SIZE * 2;
