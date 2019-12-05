@@ -5,7 +5,7 @@ var score = 0;
 
 function openGame() {
     console.log("GAME");
-    $('.game-container').show();
+    $('.game-container').hide();
     $('.highscore-container').hide();
     $('#but-game').addClass("tab-active");
     $('#but-highscore').removeClass("tab-active");
@@ -23,6 +23,7 @@ function openHighscore() {
 
 function closeIntroPopin() {
    $(".intro-popin-container").fadeOut();
+   $(".gamecanvas").show();
    gameGo();
 }
 
