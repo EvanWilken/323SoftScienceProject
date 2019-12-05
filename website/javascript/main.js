@@ -23,7 +23,7 @@ function openHighscore() {
 
 function closeIntroPopin() {
    $(".intro-popin-container").fadeOut();
-   $(".gamecanvas").show();
+   $('.game-container').show();
    gameGo();
 }
 
