@@ -5,7 +5,7 @@ var score = 0;
 
 function openGame() {
     console.log("GAME");
-    $('.game-container').hide();
+    $('.game-container').show();
     $('.highscore-container').hide();
     $('#but-game').addClass("tab-active");
     $('#but-highscore').removeClass("tab-active");
@@ -34,6 +34,8 @@ window.addEventListener("keydown", function(e) {
         e.preventDefault();
     }
 }, false);
+
+
 
 //function startGameServer() {
   //  console.log("Starting Game on Server");
