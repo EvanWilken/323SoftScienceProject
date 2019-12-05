@@ -197,8 +197,6 @@
   /*bottom: 20px;*/
   box-sizing: border-box;
   text-align: center;
-  border-style: solid;
-  border-color: white;
 
 }
 
@@ -211,6 +209,9 @@
   padding-top: 10px;
   font-family: 'Fugaz One', cursive;
   cursor: pointer;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
 }
 
 .main{
