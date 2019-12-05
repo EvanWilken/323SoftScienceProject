@@ -144,6 +144,7 @@
 }
 
 .game-container{
+  display: none;
   width: 100%;
   background: repeating-linear-gradient(
     to right,
