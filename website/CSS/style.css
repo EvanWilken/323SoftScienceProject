@@ -148,9 +148,9 @@
   background: repeating-linear-gradient(
     to right,
     #ff0000,
-    #ff0000 40px,
-    green 40px,
-    green 80px
+    #ff0000 10%,
+    green 10%,
+    green 20%
     );
   border-color: white;
   text-align: center;
@@ -217,9 +217,9 @@
   background: repeating-linear-gradient(
   to right,
   #ff0000,
-  #ff0000 40px,
-  green 40px,
-  green 80px
+  #ff0000 10%,
+  green 10%,
+  green 20%
 );
 border-left: dashed;
 border-right: dashed;
