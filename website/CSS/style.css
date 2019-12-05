@@ -14,9 +14,9 @@
   background: repeating-linear-gradient(
   to right,
   green,
-  green 40px,
-  #ff0000 40px,
-  #ff0000 80px
+  green 10%,
+  #ff0000 10%,
+  #ff0000 20%
 );
 }
 .title {
