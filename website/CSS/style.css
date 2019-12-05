@@ -14,9 +14,9 @@
   background: repeating-linear-gradient(
   to right,
   green,
-  green 10%,
-  #ff0000 10%,
-  #ff0000 20%
+  green 5%,
+  #ff0000 5%,
+  #ff0000 10%
 );
 }
 .title {
@@ -148,9 +148,9 @@
   background: repeating-linear-gradient(
     to right,
     #ff0000,
-    #ff0000 10%,
-    green 10%,
-    green 20%
+    #ff0000 5%,
+    green 5%,
+    green 10%
     );
   border-color: white;
   text-align: center;
@@ -219,9 +219,9 @@
   background: repeating-linear-gradient(
   to right,
   #ff0000,
-  #ff0000 10%,
-  green 10%,
-  green 20%
+  #ff0000 5%,
+  green 5%,
+  green 10%
 );
 border-left: dashed;
 border-right: dashed;
