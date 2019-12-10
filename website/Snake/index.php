@@ -52,6 +52,14 @@
         <h2 id="currscore" class="currscoredisp"></h2>
     </div>
 
+    <div class="game-end-container">    
+            <form action="index.php" method="post">
+            Name: <input type="text" name="name"><br>
+            Score: <input type="text" name="score"><br>
+            <input type="submit" name="submit" value="submit" onclick="openHighScore()">
+            </form>
+      </div>
+
     <div class="intro-popin-container">
       <div class="intro-popin">
           <div class="play-button-container">
@@ -60,38 +68,42 @@
       </div>
     </div>
 
+
     <div class="game-container">
         <canvas class="gamecanvas"></canvas>
-
-        <div class="game-end-container">    
-            <form action="index.php" method="post">
-            Name: <input type="text" name="name"><br>
-            Score: <input type="text" name="score"><br>
-            <input type="submit" name="submit" value="submit" onclick="openHighScore()">
-            </form>
     </div>
+
     </div>
 
     <div class="highscore-container">
       <div class="highscore-column">
         <h1><u>The Best Scores</u></h1>
-        <table border="1" align="center">
-        <tr>
-        <td>Reviewer Name</td>
-        <td>Stars</td>
-       <td>Details</td>
-       </tr>
-      </div>
-    </div>
+         <table border="1" align="center">
+            <tr>
+               <td>Name</td>
+               <td>Score</td>
+            </tr>
 
-    <div class="game-end-container">    
-           <form action="index.php" method="post">
-            Name: <input type="text" name="name"><br>
-            Score: <input type="text" name="score"><br>
-            <input type="submit" name="submit" value="submit" onclick="openHighScore()">
-            </form>
-    </div>
+     <?php
+        $con = mysqli_connect("localhost", "root", "Rich94509!", "snake_game");
 
+          $sql = mysqli_query($con, "SELECT * FROM players ORDER BY score DESC LIMIT 18");
+           //or die (mysqli_error($dbconnect));
+
+           while ($row = mysqli_fetch_array($sql)) {
+           echo
+             "<tr>
+              <td>{$row['name']}</td>
+              <td>{$row['score']}</td>
+              </tr>\n";
+          }
+  ?>  
+  </table>
+
+       
+      </div>  
+
+    </div>
 
 
     </div>
@@ -102,7 +114,20 @@
 </html>
 
 <?php
+   //include "connection.php";
+   //$con = mysqli_connect("localhost", "root", "Rich94509!", "snake_game");
+
+
    if(isset($_POST['submit'])) {  //the post form has been submitted
+       $name = $_POST["name"];
+       $score = $_POST["score"];
+       $sql = "INSERT INTO PLAYERS (name, score) VALUES ('$name', '$score')";
+
+       if (!mysqli_query($con, $sql)) {
+           die('An error occurred when submitting your review.');
+          } else {
+          echo "Thanks for your review.";
+       }
        
 
    }
