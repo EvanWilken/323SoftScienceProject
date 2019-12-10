@@ -6,6 +6,8 @@ var score = 0;
 function openGame() {
     console.log("GAME");
     $('.game-container').show();
+    $('.scorecount').show();
+    $('.game-end-container').hide();
     $('.highscore-container').hide();
     $('#but-game').addClass("tab-active");
     $('#but-highscore').removeClass("tab-active");
@@ -16,6 +18,8 @@ function openHighscore() {
      console.log("HIGHSCORE");
      $('.game-container').hide();
      $('.highscore-container').show();
+     $('.game-end-container').hide();
+     $('.scorecount').hide();
      $('#but-game').removeClass("tab-active");
      $('#but-highscore').addClass("tab-active");
 
@@ -23,9 +27,17 @@ function openHighscore() {
 
 function closeIntroPopin() {
    $(".intro-popin-container").fadeOut();
+   $('.game-end-container').hide();
    $('.game-container').show();
    gameGo();
 }
+
+function gameEnd() {
+  $(".game-container").fadeOut();
+  $('.game-end-container').show();
+
+}
+
 
 //trying to disable keys scrolling the window -Evan
 window.addEventListener("keydown", function(e) {
@@ -113,6 +125,7 @@ function gameGo() {
         context.font = '40px serif';
         context.textAlign = 'center';
         context.fillText('Refresh to play again\n', SIZE / 2, SIZE / 2);
+        gameEnd();
       } else {
         snake.unshift(newHead);
         snake = snake.slice(0, snakeLength);

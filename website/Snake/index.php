@@ -62,12 +62,34 @@
 
     <div class="game-container">
         <canvas class="gamecanvas"></canvas>
+
+        <div class="game-end-container">    
+            <form action="index.php" method="post">
+            Name: <input type="text" name="name"><br>
+            Score: <input type="text" name="score"><br>
+            <input type="submit" name="submit" value="submit" onclick="openHighScore()">
+            </form>
+    </div>
     </div>
 
     <div class="highscore-container">
       <div class="highscore-column">
         <h1><u>The Best Scores</u></h1>
+        <table border="1" align="center">
+        <tr>
+        <td>Reviewer Name</td>
+        <td>Stars</td>
+       <td>Details</td>
+       </tr>
       </div>
+    </div>
+
+    <div class="game-end-container">    
+           <form action="index.php" method="post">
+            Name: <input type="text" name="name"><br>
+            Score: <input type="text" name="score"><br>
+            <input type="submit" name="submit" value="submit" onclick="openHighScore()">
+            </form>
     </div>
 
 
@@ -78,3 +100,11 @@
   </body>
 
 </html>
+
+<?php
+   if(isset($_POST['submit'])) {  //the post form has been submitted
+       
+
+   }
+
+?>
