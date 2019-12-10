@@ -1,27 +1,39 @@
 var userName = null;
 var score = 0;
 
+$('.game-end-container').hide();
 
 
 function openGame() {
     console.log("GAME");
+    //$('.game-end-container').hide();
     $('.game-container').show();
     $('.scorecount').show();
     $('.game-end-container').hide();
     $('.highscore-container').hide();
     $('#but-game').addClass("tab-active");
     $('#but-highscore').removeClass("tab-active");
-
+    closeScoreSubmit();
 }
 
 function openHighscore() {
      console.log("HIGHSCORE");
      $('.game-container').hide();
      $('.highscore-container').show();
-     $('.game-end-container').hide();
      $('.scorecount').hide();
      $('#but-game').removeClass("tab-active");
      $('#but-highscore').addClass("tab-active");
+     closeIntroPopin();
+     closeScoreSubmit();
+
+}
+
+function openScoreSubmit() {
+  $('.game-end-container').show();
+}
+
+function closeScoreSubmit() {
+  $('.game-end-container').fadeOut();
 
 }
 
@@ -34,8 +46,7 @@ function closeIntroPopin() {
 
 function gameEnd() {
   $(".game-container").fadeOut();
-  $('.game-end-container').show();
-
+  openScoreSubmit();
 }
 
 
@@ -47,24 +58,6 @@ window.addEventListener("keydown", function(e) {
     }
 }, false);
 
-
-
-//function startGameServer() {
-  //  console.log("Starting Game on Server");
-    //$.ajax({
-      //  type : post,
-        //url : URL + "startGame.php",
-        //success : function(data) {
-          //   console.log(data);
-        //},
-        //error: function(data) {
-          //   console.log(data);
-        //}
-
-
-    //})
-
-//}
 
 function gameGo() {
     var SIZE = 700; // Size of the play-field in pixels

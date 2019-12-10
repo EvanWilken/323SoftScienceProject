@@ -246,11 +246,12 @@ h1{
 
 .highscore-column{
   width:25%;
-  height: 85%;
+  height: 70%;
   margin:auto;
   background-color: green;
   border: dashed;
   border-color: white;
+  text-align: center;
 }
 
 .scorecount{
