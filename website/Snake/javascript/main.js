@@ -9,11 +9,11 @@ function openGame() {
     //$('.game-end-container').hide();
     $('.game-container').show();
     $('.scorecount').show();
-    $('.game-end-container').hide();
+    //$('.game-end-container').hide();
     $('.highscore-container').hide();
     $('#but-game').addClass("tab-active");
     $('#but-highscore').removeClass("tab-active");
-    closeScoreSubmit();
+    //closeScoreSubmit();
 }
 
 function openHighscore() {
@@ -23,8 +23,8 @@ function openHighscore() {
      $('.scorecount').hide();
      $('#but-game').removeClass("tab-active");
      $('#but-highscore').addClass("tab-active");
-     closeIntroPopin();
-     closeScoreSubmit();
+     //closeIntroPopin();
+     //closeScoreSubmit();
 
 }
 
@@ -39,14 +39,14 @@ function closeScoreSubmit() {
 
 function closeIntroPopin() {
    $(".intro-popin-container").fadeOut();
-   $('.game-end-container').hide();
+   //$('.game-end-container').hide();
    $('.game-container').show();
    gameGo();
 }
 
 function gameEnd() {
-  $(".game-container").fadeOut();
-  openScoreSubmit();
+  //$(".game-container").fadeOut();
+  //openScoreSubmit();
 }
 
 
