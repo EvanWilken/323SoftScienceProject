@@ -38,14 +38,14 @@ function closeScoreSubmit() {
 }
 
 function closeIntroPopin() {
-   //$(".intro-popin-container").fadeOut();
+   $(".intro-popin-container").fadeOut();
    //$('.game-end-container').hide();
    $('.game-container').show();
    gameGo();
 }
 
 function gameEnd() {
-  $(".game-container").fadeOut();
+  //$(".game-container").fadeOut();
   //openScoreSubmit();
 }
 
